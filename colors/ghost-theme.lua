@@ -2,7 +2,7 @@ vim.cmd("highlight clear")
 vim.cmd("set background=dark")
 vim.g.colors_name = "ghost-theme"
 
-local colors = require("palette")
+local colors = require("colors.palette")
 
 -- Classic Vim highlight groups (always include these)
 vim.api.nvim_set_hl(0, "Normal", { fg = colors.fg, bg = colors.bg })
