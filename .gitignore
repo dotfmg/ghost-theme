@@ -1,0 +1,64 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# LuaRocks (if you ever use it)
+*.rock
+*.rockspec
+
+# Compiled Lua files
+*.luac
+
+# Logs and temp files
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+*.old
+
+# Neovim/backup/session files
+Session.vim
+swap/*
+backup/*
+undo/*
+
+# Node.js stuff (in case you use npm for docs/tests)
+node_modules/
+npm-debug.log*
+
+# VS Code / JetBrains / Sublime settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test output
+coverage/
+test/output/
+
+# Local configuration files
+.env
+.envrc
+*.local
+
+# GitHub workflow local cache
+.github/
+
+# Ignore build/artifact folders (if you ever add them)
+dist/
+build/
+out/
+
+# macOS metadata
+.AppleDouble
+.LSOverride
+
+# Ignore by language server, code navigation, etc.
+tags
+ctags
+gtags
+
+# Ignore user-specific stuff
+*.user
+
