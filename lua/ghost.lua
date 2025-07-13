@@ -39,7 +39,7 @@ function M.setup()
   -- Treesitter
   hi("@comment", { fg = c.comment, italic = true })
   hi("@function", { fg = c.blue })
-  hi("@keyword", { fg = c.magenta, bold = true })
+  hi("@keyword", { fg = c.red, bold = true })
   hi("@type", { fg = c.yellow })
 end
 
