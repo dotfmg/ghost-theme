@@ -4,15 +4,16 @@ local M = {}
 
 M.colors = {
   bg = "#25272d",
-  fg = "#cdd6f4",
-  comment = "#585b70",
-  red = "#F85552",
-  green = "#a6e3a1",
-  yellow = "#f9e2af",
-  blue = "#89b4fa",
-  magenta = "#f5c2e7",
-  cyan = "#94e2d5",
-  orange = "#fab387",
+  fg = "#e0e2e6",
+  comment = "#5d606b",
+  red = "#e06c75",
+  green = "#98c379",
+  yellow = "#e5c07b",
+  blue = "#61afef",
+  magenta = "#c678dd",
+  cyan = "#56b6c2",
+  orange = "#d19a66",
+  visual = "#32343a",
 }
 
 function M.setup()
@@ -41,6 +42,28 @@ function M.setup()
   hi("@function", { fg = c.blue })
   hi("@keyword", { fg = c.red, bold = true })
   hi("@type", { fg = c.yellow })
+  hi("@variable", { fg = c.fg }) -- variables
+  hi("@variable.builtin", { fg = c.orange }) -- built-in variables (e.g. `self`, `this`)
+  hi("@constant", { fg = c.orange }) -- constants
+  hi("@constant.builtin", { fg = c.yellow }) -- built-in constants (e.g. `true`, `false`)
+  hi("@string", { fg = c.green }) -- strings
+  hi("@string.regex", { fg = c.red }) -- regex strings
+  hi("@string.escape", { fg = c.cyan }) -- escape sequences
+  hi("@number", { fg = c.orange }) -- numbers
+  hi("@boolean", { fg = c.orange }) -- booleans
+  hi("@character", { fg = c.green }) -- chars
+  hi("@field", { fg = c.cyan }) -- struct/object fields
+  hi("@property", { fg = c.cyan }) -- properties
+  hi("@parameter", { fg = c.yellow }) -- function parameters
+  hi("@punctuation", { fg = c.comment }) -- punctuation
+  hi("@operator", { fg = c.red }) -- operators (+, -, etc)
+  hi("@constructor", { fg = c.yellow }) -- constructors
+  hi("@method", { fg = c.blue }) -- methods
+  hi("@namespace", { fg = c.magenta }) -- namespaces, modules
+  hi("@module", { fg = c.magenta }) -- modules
+  hi("@tag", { fg = c.red }) -- tags (HTML/XML)
+  hi("@attribute", { fg = c.cyan }) -- attributes
+  hi("@label", { fg = c.orange }) -- labels (goto, etc.)
 end
 
 return M
