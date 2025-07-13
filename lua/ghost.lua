@@ -30,11 +30,11 @@ function M.setup()
   end
 
   hi("Normal", { fg = c.fg, bg = c.bg })
-  hi("Comment", { fg = c.comment, italic = true })
-  hi("String", { fg = c.green })
-  hi("Function", { fg = c.blue })
-  hi("Keyword", { fg = c.magenta, bold = true })
-  hi("Type", { fg = c.yellow })
+  -- hi("Comment", { fg = c.comment, italic = true })
+  -- hi("String", { fg = c.green })
+  -- hi("Function", { fg = c.blue })
+  -- hi("Keyword", { fg = c.magenta, bold = true })
+  -- hi("Type", { fg = c.yellow })
   -- ... add more highlights as needed
 
   -- Treesitter
@@ -46,7 +46,7 @@ function M.setup()
   hi("@variable.builtin", { fg = c.orange }) -- built-in variables (e.g. `self`, `this`)
   hi("@constant", { fg = c.orange }) -- constants
   hi("@constant.builtin", { fg = c.yellow }) -- built-in constants (e.g. `true`, `false`)
-  hi("@string", { fg = c.green }) -- strings
+  hi("@string", { fg = c.fg }) -- strings
   hi("@string.regex", { fg = c.red }) -- regex strings
   hi("@string.escape", { fg = c.cyan }) -- escape sequences
   hi("@number", { fg = c.orange }) -- numbers
