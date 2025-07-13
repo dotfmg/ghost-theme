@@ -56,6 +56,9 @@ function M.setup()
   hi("@property", { fg = c.cyan }) -- properties
   hi("@parameter", { fg = c.yellow }) -- function parameters
   hi("@punctuation", { fg = c.comment }) -- punctuation
+  hi("@punctuation.delimiter", { fg = c.yellow })
+  hi("@punctuation.bracket", { fg = c.cyan })
+  hi("@punctuation.special", { fg = c.orange })
   hi("@operator", { fg = c.red }) -- operators (+, -, etc)
   hi("@constructor", { fg = c.yellow }) -- constructors
   hi("@method", { fg = c.blue }) -- methods
