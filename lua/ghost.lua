@@ -3,7 +3,7 @@
 local M = {}
 
 M.colors = {
-  bg = "#181825",
+  bg = "#25272d",
   fg = "#cdd6f4",
   comment = "#585b70",
   red = "#f38ba8",
