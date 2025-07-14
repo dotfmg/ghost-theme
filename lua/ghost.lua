@@ -57,7 +57,7 @@ M.colors = {
   fg = "#c8d3f5",
   fg_dark = "#828bb8",
   fg_gutter = "#3b4261",
-  green = "#c3e88d",
+  --green = "#c3e88d",
   green1 = "#4fd6be",
   green2 = "#41a6b5",
   magenta = "#c099ff",
@@ -87,7 +87,7 @@ M.colors = {
   red = "#BF616A", -- nord11 in palette
   --orange = "#D08770", -- nord12 in palette
   --yellow = "#EBCB8B", -- nord13 in palette
-  --green = "#A3BE8C", -- nord14 in palette
+  green = "#A3BE8C", -- nord14 in palette
   --purple = "#B48EAD", -- nord15 in palette
   none = "NONE",
 }
