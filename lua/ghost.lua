@@ -60,7 +60,7 @@ function M.setup()
   hi("@constructor", { fg = c.yellow }) -- Constructors, e.g. "new MyClass()", "__init__"
   hi("@method", { fg = c.blue }) -- Methods, e.g. "obj.method()"
   hi("@namespace", { fg = c.magenta }) -- Namespaces/modules, e.g. "import sys", "package.module"
-  hi("@module", { fg = c.magenta }) -- Module names, e.g. "import math"
+  hi("@module", { fg = c.yellow }) -- Module names, e.g. "import math"
   hi("@tag", { fg = c.red }) -- Tags, e.g. "<div>", "</html>"
   hi("@attribute", { fg = c.cyan }) -- Attributes, e.g. '<div id="main">'
   hi("@label", { fg = c.orange }) -- Labels, e.g. "case label:", "goto label"
