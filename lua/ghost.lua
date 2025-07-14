@@ -118,7 +118,7 @@ function M.setup()
   hi("@function.builtin", { fg = c.blue, italic = true }) -- Built-in functions, e.g. "print", "len"
   hi("@keyword", { fg = c.red, bold = true }) -- Language keywords, e.g. "if", "for", "return", "import"
   hi("@type", { fg = c.yellow }) -- Type names, e.g. "int", "str", "MyClass"
-  hi("@variable", { fg = c.fg }) -- Generic variables, e.g. "my_var"
+  hi("@variable", { fg = c.blue }) -- Generic variables, e.g. "my_var"
   hi("@variable.parameter", { fg = c.yellow }) -- Function parameters, e.g. "def foo(bar):"
   hi("@variable.builtin", { fg = c.orange }) -- Built-in variables, e.g. "self", "this", "None"
   hi("@constant", { fg = c.orange }) -- Constants, e.g. "PI", "MAX_LENGTH"
