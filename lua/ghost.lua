@@ -2,30 +2,20 @@ local M = {}
 
 M.colors = {
   bg = "#25272d",
-  --fg = "#FFE7DE",
-  --comment = "#5d606b",
-  --red = "#e06c75",
-  ---green = "#98c379",
-  --blue = "#61afef",
-  --magenta = "#c678dd",
-  --cyan = "#56b6c2",
-  --orange = "#d19a66",
-  visual = "#32343a",
-
-  rosewater = "#F2D5CF",
-  flamingo = "#EEBEBE",
-  pink = "#F4B8E4",
-  mauve = "#CA9EE6",
-  maroon = "#EA999C",
-  peach = "#EF9F76",
-  yellow = "#E5C890",
-  --green = "#A6D189",
-  --teal = "#81C8BE",
-  sky = "#99D1DB",
-  sapphire = "#85C1DC",
-  --blue = "#8CAAEE",
-  lavender = "#BABBF1",
-
+  rosewater = "#f2d5cf",
+  flamingo = "#eebebe",
+  pink = "#f4b8e4",
+  mauve = "#ca9ee6",
+  red = "#e78284",
+  maroon = "#ea999c",
+  peach = "#ef9f76",
+  yellow = "#e5c890",
+  green = "#a6d189",
+  teal = "#81c8be",
+  sky = "#99d1db",
+  sapphire = "#85c1dc",
+  blue = "#8caaee",
+  lavender = "#babbf1",
   text = "#c6d0f5",
   subtext1 = "#b5bfe2",
   subtext0 = "#a5adce",
@@ -35,61 +25,9 @@ M.colors = {
   surface2 = "#626880",
   surface1 = "#51576d",
   surface0 = "#414559",
-
   base = "#303446",
-  mantle = "#292C3C",
+  mantle = "#292c3c",
   crust = "#232634",
-
-  bg_dark = "#1e2030",
-  bg_dark1 = "#191B29",
-  bg_highlight = "#2f334d",
-  blue = "#82aaff",
-  blue0 = "#3e68d7",
-  blue1 = "#65bcff",
-  blue2 = "#0db9d7",
-  blue5 = "#89ddff",
-  blue6 = "#b4f9f8",
-  blue7 = "#394b70",
-  comment = "#636da6",
-  cyan = "#86e1fc",
-  dark3 = "#545c7e",
-  dark5 = "#737aa2",
-  fg = "#c8d3f5",
-  fg_dark = "#828bb8",
-  fg_gutter = "#3b4261",
-  --green = "#c3e88d",
-  green1 = "#4fd6be",
-  green2 = "#41a6b5",
-  magenta = "#c099ff",
-  magenta2 = "#ff007c",
-  orange = "#ff966c",
-  purple = "#fca7ea",
-  red1 = "#c53b53",
-  teal = "#4fd6be",
-  terminal_black = "#444a73",
-  git = {
-    add = "#b8db87",
-    change = "#7ca1f2",
-    delete = "#e26a75",
-  },
-
-  black = "#2E3440", -- nord0 in palette
-  dark_gray = "#3B4252", -- nord1 in palette
-  gray = "#434C5E", -- nord2 in palette
-  light_gray = "#4C566A", -- nord3 in palette
-  light_gray_bright = "#616E88", -- out of palette
-  darkest_white = "#D8DEE9", -- nord4 in palette
-  darker_white = "#E5E9F0", -- nord5 in palette
-  white = "#ECEFF4", -- nord6 in palette
-  --teal = "#8FBCBB", -- nord7 in palette
-  off_blue = "#88C0D0", -- nord8 in palette
-  glacier = "#81A1C1", -- nord9 in palette
-  red = "#BF616A", -- nord11 in palette
-  --orange = "#D08770", -- nord12 in palette
-  --yellow = "#EBCB8B", -- nord13 in palette
-  green = "#A3BE8C", -- nord14 in palette
-  --purple = "#B48EAD", -- nord15 in palette
-  none = "NONE",
 }
 
 function M.setup()
